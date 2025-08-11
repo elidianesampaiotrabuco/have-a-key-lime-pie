@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<manifest>
+<?xml-model href="styles/git-repo-manifest.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<?xml-stylesheet type="text/xsl" href="styles/styles.xsl"?>
+<manifest xmlns="http://schemas.android.com/git-repo/manifest">
 
   <remote  name="aosp"
            fetch=".." />
