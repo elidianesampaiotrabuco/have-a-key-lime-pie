@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  targetNamespace="http://schemas.android.com/git-repo/manifest"
+  xmlns="http://schemas.android.com/git-repo/manifest">
+  <xs:element name="manifest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="notice" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="remote" />
+        <xs:element minOccurs="0" ref="default" />
+        <xs:element minOccurs="0" ref="superproject" />
+        <xs:element minOccurs="0" ref="contactinfo" />
+        <xs:element minOccurs="0" ref="manifest-server" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="submanifest" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="remove-project" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="project" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="extend-project" />
+        <xs:element minOccurs="0" ref="repo-hooks" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="include" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="notice" type="xs:string" />
+  <xs:element name="remote">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="annotation" />
+      </xs:sequence>
+      <xs:attribute name="name" use="required" type="xs:ID" />
+      <xs:attribute name="alias" />
+      <xs:attribute name="fetch" use="required" />
+      <xs:attribute name="pushurl" />
+      <xs:attribute name="review" />
+      <xs:attribute name="revision" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="default">
+    <xs:complexType>
+      <xs:attribute name="remote" type="xs:IDREF" />
+      <xs:attribute name="revision" />
+      <xs:attribute name="dest-branch" />
+      <xs:attribute name="upstream" />
+      <xs:attribute name="sync-j" />
+      <xs:attribute name="sync-c" />
+      <xs:attribute name="sync-s" />
+      <xs:attribute name="sync-tags" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="manifest-server">
+    <xs:complexType>
+      <xs:attribute name="url" use="required" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="submanifest">
+    <xs:complexType>
+      <xs:attribute name="name" use="required" type="xs:ID" />
+      <xs:attribute name="remote" type="xs:IDREF" />
+      <xs:attribute name="project" />
+      <xs:attribute name="manifest-name" />
+      <xs:attribute name="revision" />
+      <xs:attribute name="path" />
+      <xs:attribute name="groups" />
+      <xs:attribute name="default-groups" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="project">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="annotation" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="project" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="copyfile" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="linkfile" />
+      </xs:sequence>
+      <xs:attribute name="name" use="required" />
+      <xs:attribute name="path" />
+      <xs:attribute name="remote" type="xs:IDREF" />
+      <xs:attribute name="revision" />
+      <xs:attribute name="dest-branch" />
+      <xs:attribute name="groups" />
+      <xs:attribute name="sync-c" />
+      <xs:attribute name="sync-s" />
+      <xs:attribute name="sync-tags" />
+      <xs:attribute name="upstream" />
+      <xs:attribute name="clone-depth" />
+      <xs:attribute name="force-path" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="annotation">
+    <xs:complexType>
+      <xs:attribute name="name" use="required" />
+      <xs:attribute name="value" use="required" />
+      <xs:attribute name="keep" default="true" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="copyfile">
+    <xs:complexType>
+      <xs:attribute name="src" use="required" />
+      <xs:attribute name="dest" use="required" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="linkfile">
+    <xs:complexType>
+      <xs:attribute name="src" use="required" />
+      <xs:attribute name="dest" use="required" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="extend-project">
+    <xs:complexType>
+      <xs:attribute name="name" use="required" />
+      <xs:attribute name="path" />
+      <xs:attribute name="dest-path" />
+      <xs:attribute name="groups" />
+      <xs:attribute name="revision" />
+      <xs:attribute name="remote" />
+      <xs:attribute name="dest-branch" />
+      <xs:attribute name="upstream" />
+      <xs:attribute name="base-rev" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="remove-project">
+    <xs:complexType>
+      <xs:attribute name="name" />
+      <xs:attribute name="path" />
+      <xs:attribute name="optional" />
+      <xs:attribute name="base-rev" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="repo-hooks">
+    <xs:complexType>
+      <xs:attribute name="in-project" use="required" />
+      <xs:attribute name="enabled-list" use="required" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="superproject">
+    <xs:complexType>
+      <xs:attribute name="name" use="required" />
+      <xs:attribute name="remote" type="xs:IDREF" />
+      <xs:attribute name="revision" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="contactinfo">
+    <xs:complexType>
+      <xs:attribute name="bugurl" use="required" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="include">
+    <xs:complexType>
+      <xs:attribute name="name" use="required" />
+      <xs:attribute name="groups" />
+      <xs:attribute name="revision" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
