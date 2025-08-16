@@ -6,12 +6,9 @@ from lxml import etree
 def extract_projects(root: etree.Element):
   projects = set()
 
-  for child in root:
-    if not etree.iselement(child):
-      continue
-
-    tag = etree.QName(child.tag)
-    if not (tag.namespace is None or tag.namespace == MANIFEST_NS):
+  for child in root.iter("*"):
+    tag = etree.QName(child)
+    if tag.namespace != None and tag.namespace != MANIFEST_NS:
       continue
 
     match tag.localname:
