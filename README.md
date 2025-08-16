@@ -25,7 +25,7 @@ Then to download the respective code, execute:
 Compiling
 ---------
 
-For installing dependencies, refer to ["Initializing a Build Environment"](https://web.archive.org/web/20140208084633/http://source.android.com/source/initializing.html) from the AOSP website.
+For installing dependencies, refer to the article ["Initializing a Build Environment"](https://web.archive.org/web/20140208084633/http://source.android.com/source/initializing.html) from the AOSP documentation.
 To initialize the build environment, execute the following command:
 
     source build/envsetup.sh
