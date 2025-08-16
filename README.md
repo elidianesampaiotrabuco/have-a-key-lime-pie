@@ -5,8 +5,8 @@ This repository contains reconstructed `repo` manifests of pre-release Android 4
 
 As of now, the following builds have been reconstructed:
 
-| Build number/manifest branch    | Status           |
-| :---:                           | :---:            |
+| Build ID/manifest branch        | Status           |
+| :-----------------------------: | :--------------: |
 | `IRK36B` (August 6th, 2011)     | Done             |
 
 Downloading Source
