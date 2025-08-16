@@ -5,9 +5,11 @@ This repository contains reconstructed `repo` manifests of pre-release Android 4
 
 As of now, the following builds have been reconstructed:
 
-| Build ID & manifest branch      | Status           |
-| :-----------------------------: | :--------------: |
-| `IRK36B` (August 6th, 2011)     | Done             |
+| Build ID & manifest branch               | Status           |
+| :--------------------------------------: | :--------------: |
+| [`IRK36B`][IRK36B] (August 6th, 2011)    | Done             |
+
+[IRK36B]: https://github.com/Typicals-Android-Stuff/i-scream-sandwich/tree/IRK36B
 
 Downloading Source
 ------------------
