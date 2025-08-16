@@ -10,7 +10,7 @@ def extract_projects(root: etree.Element):
     if not etree.iselement(child):
       continue
 
-    tag = etree.QName(child)
+    tag = etree.QName(child.tag)
     if not (tag.namespace is None or tag.namespace == MANIFEST_NS):
       continue
 
