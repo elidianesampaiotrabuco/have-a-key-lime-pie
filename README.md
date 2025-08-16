@@ -1,37 +1,35 @@
-Ice Cream Sandwich Restoration Project (i-scream-sandwich)
-===========
+i-scream-sandwich: Ice Cream Sandwich Restoration Project
+=========================================================
 
-This repository contains reconstructed manifests of ICS builds. As of now, following builds were reconstructed:
+This repository contains reconstructed `repo` manifests of pre-release Android 4.0 ("Ice Cream Sandwich") builds.
 
+As of now, the following builds have been reconstructed:
 
-| Build number                    | Status           |
-| :---:                           |   :---:          |
-| `IRK36B` (August 6th, 2011)     |    Done          |
+| Build number/manifest branch    | Status           |
+| :---:                           | :---:            |
+| `IRK36B` (August 6th, 2011)     | Done             |
 
+Downloading Source
+------------------
 
-Getting Started
----------------
+To get started with downloading the source code, you'll need to get familiar with Git and [`repo`](https://source.android.google.cn/docs/setup/reference/repo).
 
-To get started with Android, you'll need to get
-familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+To initialize a repository tree using one of the manifests provided by this project, execute a command like this (see the table above for available `<branch>`es):
 
-To initialize your local repository using the Android trees, use a command like this:
+    repo init -u https://github.com/Typicals-Android-Stuff/i-scream-sandwich.git <branch>
 
-    repo init -u https://github.com/Typicals-Android-Stuff/i-scream-sandwich IRK36B
-
-Then to sync up:
+Then to download the respective code, execute:
 
     repo sync
 
 Compiling
 ---------
 
-For installing dependencies, refer over to this [site](https://web.archive.org/web/20130128005045/http://source.android.com/source/initializing.html). To initialize build environment, use a command:
+For installing dependencies, refer to this [site](https://web.archive.org/web/20140208084633/http://source.android.com/source/initializing.html).
+To initialize the build environment, execute the following command:
 
-    . build/envsetup.sh
-	
-Then, pick up from available compilation options by using command:
+    source build/envsetup.sh
+
+Then pick from one of the available build targets by executing the command:
 
     lunch
-	
-	
