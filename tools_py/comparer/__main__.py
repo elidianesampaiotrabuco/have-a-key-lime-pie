@@ -1,4 +1,4 @@
-from tools_py import PROJECT_ROOT
+from tools_py import PROJECT_ROOT, MANIFEST_NS
 from os import path
 from lxml import etree
 
@@ -10,7 +10,11 @@ def extract_projects(root: etree.Element):
     if not etree.iselement(child):
       continue
 
-    match child.tag:
+    tag = etree.QName(child)
+    if not (tag.namespace is None or tag.namespace == MANIFEST_NS)：
+      continue
+
+    match tag.localname:
       case "project" | "extend-project":
         projects.add(child.get("name"))
       case "remove-project":
