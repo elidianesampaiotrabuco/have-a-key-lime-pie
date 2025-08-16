@@ -12,7 +12,7 @@ As of now, the following builds have been reconstructed:
 Downloading Source
 ------------------
 
-To get started with downloading the source code, you'll need to get familiar with Git and [`repo`](https://source.android.google.cn/docs/setup/reference/repo).
+To get started with downloading the source code, you'll need to get familiar with Git and [`repo`](https://source.android.com/docs/setup/reference/repo).
 
 To initialize a repository tree using one of the manifests provided by this project, execute a command like this (see the table above for available `<branch>`es):
 
