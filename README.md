@@ -7,7 +7,7 @@ As of now, the following builds have been reconstructed:
 
 | Build ID & manifest branch               | Status           |
 | :--------------------------------------: | :--------------: |
-| [`IRJ60`][IRJ60]   (May 30th, 2011)      | Work in progress |
+| [`IRJ60`][IRJ60]   (May 30th, 2011)      | Done             |
 | [`IRK36B`][IRK36B] (August 6th, 2011)    | Done             |
 
 [IRJ60]: https://github.com/Typicals-Android-Stuff/i-scream-sandwich/tree/IRJ60
