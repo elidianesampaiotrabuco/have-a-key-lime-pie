@@ -11,7 +11,7 @@ def extract_projects(root: etree.Element):
       continue
 
     tag = etree.QName(child)
-    if not (tag.namespace is None or tag.namespace == MANIFEST_NS)：
+    if not (tag.namespace is None or tag.namespace == MANIFEST_NS):
       continue
 
     match tag.localname:
