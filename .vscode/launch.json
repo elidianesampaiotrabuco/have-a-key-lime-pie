@@ -1,0 +1,10 @@
+{
+  "configurations": [
+    {
+      "name": "Launch comparer",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "tools_py.comparer"
+    }
+  ]
+}
