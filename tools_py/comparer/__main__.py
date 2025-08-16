@@ -14,7 +14,7 @@ def extract_projects(root: etree.Element):
       case "project" | "extend-project":
         projects.add(child.get("name"))
       case "remove-project":
-        projects.remove(child.get("name"))
+        projects.discard(child.get("name"))
 
   return projects
 
