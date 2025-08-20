@@ -77,3 +77,4 @@ Useful Links
   * [LLVM](https://github.com/search?q=repo%3ALineageOS%2Fandroid_external_llvm+NOT+%22git-svn-id%3A%22&type=commits&s=committer-date&o=asc)
   * [Clang](https://github.com/search?q=repo%3ALineageOS%2Fandroid_external_clang+NOT+%22git-svn-id%3A%22&type=commits&s=committer-date&o=asc)
 * [Every IR-series build from before 4.0.1 r1 was tagged](https://android.googlesource.com/platform/build/+log/598288e321cc4cec399afb20ff6485bf3b8ac953)
+* [Froyocomb Helper](https://gist.github.com/Dobby233Liu/c55c1e9c816facd153eeb19e386f53fd): userscript to assist finding commits before a certain time (cannot replace human labor)
