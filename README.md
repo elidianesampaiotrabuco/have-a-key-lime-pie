@@ -8,9 +8,11 @@ As of now, the following builds have been reconstructed:
 | Build ID & manifest branch               | Status           |
 | :--------------------------------------: | :--------------: |
 | [`IRJ60`]  (May 30th, 2011)              | Done             |
+| [`IRJ91D`] (June 30th - July 1st, 2011)  | Done             |
 | [`IRK36B`] (August 6th, 2011)            | Done             |
 
 [`IRJ60`]:  https://github.com/froyocomb/i-scream-sandwich/tree/IRJ60
+[`IRJ91D`]: https://github.com/froyocomb/i-scream-sandwich/tree/IRJ91D
 [`IRK36B`]: https://github.com/froyocomb/i-scream-sandwich/tree/IRK36B
 
 Preparing a Build Environment
