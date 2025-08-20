@@ -56,11 +56,11 @@ To compile Android, type:
 
     make CC=gcc-4.4 CXX=g++-4.4
 
-Usage
------
+Running
+-------
 
-To use the compiled build, run them in a emulator.
+You can run the compiled build with the Android Emulator.
 
-In the Ubuntu build environment, you may run the currently built build with the in-tree emulator by executing the command:
+In the Ubuntu build environment, you may run the currently compiled build with the in-tree emulator by executing the command:
 
     emulator
