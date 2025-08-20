@@ -10,8 +10,8 @@ As of now, the following builds have been reconstructed:
 | [`IRJ60`]  (May 30th, 2011)              | Done             |
 | [`IRK36B`] (August 6th, 2011)            | Done             |
 
-[`IRJ60`]:  https://github.com/Typicals-Android-Stuff/i-scream-sandwich/tree/IRJ60
-[`IRK36B`]: https://github.com/Typicals-Android-Stuff/i-scream-sandwich/tree/IRK36B
+[`IRJ60`]:  https://github.com/froyocomb/i-scream-sandwich/tree/IRJ60
+[`IRK36B`]: https://github.com/froyocomb/i-scream-sandwich/tree/IRK36B
 
 Downloading Source
 ------------------
@@ -20,7 +20,7 @@ To get started with downloading the source code, you'll need to get familiar wit
 
 To initialize a repository tree using one of the manifests provided by this project, execute a command like this (see the table above for available `<branch>`es):
 
-    repo init -u https://github.com/Typicals-Android-Stuff/i-scream-sandwich.git <branch>
+    repo init -u https://github.com/froyocomb/i-scream-sandwich.git <branch>
 
 Then to download the respective code, execute:
 
