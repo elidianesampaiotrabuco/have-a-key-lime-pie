@@ -8,8 +8,13 @@ As of now, the following builds have been reconstructed:
 | Build ID & manifest branch               | Status           |
 | :--------------------------------------: | :--------------: |
 | [`IRJ60`]  (May 30th, 2011)              | Done             |
-| ~~[`IRJ91D`] (July 1st, 2011)~~          | Scrapped         |
 | [`IRK36B`] (August 6th, 2011)            | Done             |
+
+While work on the following builds have been scrapped:
+
+| Build ID & manifest branch               | Reason           |
+| :--------------------------------------: | :--------------: |
+| ~~[`IRJ91D`] (July 1st, 2011)~~          | Not planned      |
 
 [`IRJ60`]:  https://github.com/froyocomb/i-scream-sandwich/tree/IRJ60
 [`IRJ91D`]: https://github.com/froyocomb/i-scream-sandwich/tree/IRJ91D
