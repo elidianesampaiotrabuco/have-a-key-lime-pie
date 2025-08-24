@@ -16,6 +16,7 @@ Work on the following build has been scrapped due to a change in focus:
 
 * ~~[`IRJ91D`] (July 1st, 2011)~~
 
+[`IRJ20`]:  https://github.com/froyocomb/i-scream-sandwich/tree/IRJ20
 [`IRJ60`]:  https://github.com/froyocomb/i-scream-sandwich/tree/IRJ60
 [`IRJ81`]: https://github.com/froyocomb/i-scream-sandwich/tree/IRJ81
 [`IRJ91D`]: https://github.com/froyocomb/i-scream-sandwich/tree/IRJ91D
