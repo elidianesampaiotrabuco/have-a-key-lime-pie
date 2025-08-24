@@ -5,11 +5,12 @@ This repository contains reconstructed `repo` manifests of pre-release Android 4
 
 As of now, the following builds have been reconstructed:
 
-| Build ID & manifest branch               | Status           |
-| :--------------------------------------: | :--------------: |
-| [`IRJ60`]  (May 30th, 2011)              | Done             |
-| [`IRJ81`]  (June 20th, 2011)             | Has issues       |
-| [`IRK36B`] (August 6th, 2011)            | Done             |
+| Build ID & manifest branch               | Status              |
+| :--------------------------------------: | :-----------------: |
+| [`IRJ20`]  (April 20th, 2011)            | Done (major issues) |
+| [`IRJ60`]  (May 30th, 2011)              | Done                |
+| [`IRJ81`]  (June 20th, 2011)             | Done (has issues)   |
+| [`IRK36B`] (August 6th, 2011)            | Done                |
 
 Work on the following build has been scrapped due to a change in focus:
 
