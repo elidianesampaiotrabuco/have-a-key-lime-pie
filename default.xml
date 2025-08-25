@@ -11,7 +11,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project name="platform/build" revision="refs/tags/android-4.0.1_r1" path="build">
+  <project name="platform/build" path="build" revision="refs/tags/android-4.0.1_r1">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project name="platform/abi/cpp" path="abi/cpp" revision="refs/tags/android-4.0.1_r1" />
