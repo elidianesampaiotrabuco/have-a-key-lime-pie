@@ -7,8 +7,8 @@ As of now, the following builds have been reconstructed:
 
 | Build ID & manifest branch               | Status              |
 | :--------------------------------------: | :-----------------: |
-| [`IRJ20`]  (April 20th, 2011)            | Done (major issues) |
-| [`IRJ40`]  (May 30th, 2011)              | Work in progress    |
+| [`IRJ20`]  (April 20th, 2011)            | Done                |
+| [`IRJ40`]  (May 30th, 2011)              | Done                |
 | [`IRJ60`]  (May 30th, 2011)              | Done                |
 | [`IRJ81`]  (June 20th, 2011)             | Done (has issues)   |
 | [`IRK36B`] (August 6th, 2011)            | Done                |
