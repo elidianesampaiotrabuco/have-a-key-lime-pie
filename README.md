@@ -10,7 +10,17 @@ As of now, the following builds have been reconstructed:
 | [`IRJ20`]  (April 20th, 2011)            | Done                |
 | [`IRJ40`]  (May 30th, 2011)              | Done                |
 | [`IRJ60`]  (May 30th, 2011)              | Done                |
-| [`IRJ81`]  (June 20th, 2011)             | Done (has issues)   |
+
+The following builds have rendering issues as a result of several graphics commits done in their lifespan. These changes will not be fixed (unless no GPU output is produced at all) as the builds were published with their respective commits:
+| Build ID & manifest branch               | Status              |
+| :--------------------------------------: | :-----------------: |
+| [`IRJ81`]  (June 20th, 2011)             | Done                |
+| [`IRK04`]  (July 4th, 2011)              | Done                |
+| [`IRK22`] (July 22th, 2011)              | Work in progress    |
+
+By IRK36B, the aforementioned rendering bugs were fixed.
+| Build ID & manifest branch               | Status              |
+| :--------------------------------------: | :-----------------: |
 | [`IRK36B`] (August 6th, 2011)            | Done                |
 
 Work on the following build has been scrapped due to a change in focus:
