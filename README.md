@@ -18,7 +18,7 @@ The following builds have rendering issues as a result of several graphics commi
 | [`IRK04`]  (July 4th, 2011)              | Done                |
 | [`IRK22`] (July 22th, 2011)              | Done                |
 
-By IRK36B, the aforementioned rendering bugs were fixed.
+By IRK36B, the aforementioned rendering bugs were fixed. IRK40C and IRK48 were only done due to them being listed on BetaWiki.
 | Build ID & manifest branch               | Status              |
 | :--------------------------------------: | :-----------------: |
 | [`IRK36B`] (August 6th, 2011)            | Done                |
