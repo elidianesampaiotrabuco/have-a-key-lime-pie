@@ -38,6 +38,7 @@ Work on the following build has been scrapped due to a change in focus:
 [`IRK22`]: https://github.com/froyocomb/i-scream-sandwich/tree/IRK22
 [`IRK36B`]: https://github.com/froyocomb/i-scream-sandwich/tree/IRK36B
 [`IRK40C`]: https://github.com/froyocomb/i-scream-sandwich/tree/IRK40C
+[`IRK48`]: https://github.com/froyocomb/i-scream-sandwich/tree/IRK48
 
 Preparing a Build Environment
 -----------------
