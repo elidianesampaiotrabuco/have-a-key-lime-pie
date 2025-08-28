@@ -25,7 +25,7 @@ By IRK36B, the aforementioned rendering bugs were fixed. IRK40C and IRK48 were o
 | [`IRK40C`] (August 9th, 2011)            | Done                |  
 | [`IRK48`] (August 17th, 2011)            | Work in progress    |
 
-Work on the following build has been scrapped due to a change in focus:
+Work on the following build has been scrapped due to a change in focus (builds IRJ81 and IRK04 were compiled in place of this build.) :
 
 * ~~[`IRJ91D`] (July 1st, 2011)~~
 
