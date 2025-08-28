@@ -24,7 +24,7 @@ By IRK36B, the aforementioned rendering bugs were fixed. IRK40C and IRK48 were o
 | [`IRK36B`] (August 6th, 2011)            | Done                |
 | [`IRK40C`] (August 9th, 2011)            | Done                |  
 | [`IRK48`] (August 17th, 2011)            | Done                |
-| [`IRK62B`] (August 31st, 2011)           | Work in progress    | 
+| [`IRK62C`] (August 31st, 2011)           | Work in progress    | 
 
 Work on the following build has been scrapped due to a change in focus (builds IRJ81 and IRK04 were compiled in place of this build.) :
 
@@ -40,7 +40,7 @@ Work on the following build has been scrapped due to a change in focus (builds I
 [`IRK36B`]: https://github.com/froyocomb/i-scream-sandwich/tree/IRK36B
 [`IRK40C`]: https://github.com/froyocomb/i-scream-sandwich/tree/IRK40C
 [`IRK48`]: https://github.com/froyocomb/i-scream-sandwich/tree/IRK48
-[`IRK62B`]: https://github.com/froyocomb/i-scream-sandwich/tree/IRK62B
+[`IRK62C`]: https://github.com/froyocomb/i-scream-sandwich/tree/IRK62C
 
 Preparing a Build Environment
 -----------------
