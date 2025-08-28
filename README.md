@@ -11,17 +11,18 @@ As of now, the following builds have been reconstructed:
 | [`IRJ40`]  (May 30th, 2011)              | Done                |
 | [`IRJ60`]  (May 30th, 2011)              | Done                |
 
-The following builds have rendering issues as a result of several graphics commits done in their lifespan. These changes will not be fixed (unless no GPU output is produced at all) as the builds were published with their respective commits:
+The following builds have rendering issues as a result of several graphics commits done in their lifespan. These changes will not be fixed as the builds were published with their respective commits:
 | Build ID & manifest branch               | Status              |
 | :--------------------------------------: | :-----------------: |
 | [`IRJ81`]  (June 20th, 2011)             | Done                |
 | [`IRK04`]  (July 4th, 2011)              | Done                |
-| [`IRK22`] (July 22th, 2011)              | Work in progress    |
+| [`IRK22`] (July 22th, 2011)              | Done                |
 
 By IRK36B, the aforementioned rendering bugs were fixed.
 | Build ID & manifest branch               | Status              |
 | :--------------------------------------: | :-----------------: |
 | [`IRK36B`] (August 6th, 2011)            | Done                |
+| [`IRK40C`] (August 9th, 2011)            | Work in progress    |  
 
 Work on the following build has been scrapped due to a change in focus:
 
@@ -35,6 +36,7 @@ Work on the following build has been scrapped due to a change in focus:
 [`IRK04`]: https://github.com/froyocomb/i-scream-sandwich/tree/IRK04
 [`IRK22`]: https://github.com/froyocomb/i-scream-sandwich/tree/IRK22
 [`IRK36B`]: https://github.com/froyocomb/i-scream-sandwich/tree/IRK36B
+[`IRK40C`]: https://github.com/froyocomb/i-scream-sandwich/tree/IRK40C
 
 Preparing a Build Environment
 -----------------
