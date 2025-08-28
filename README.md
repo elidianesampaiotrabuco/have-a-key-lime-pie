@@ -22,7 +22,8 @@ By IRK36B, the aforementioned rendering bugs were fixed.
 | Build ID & manifest branch               | Status              |
 | :--------------------------------------: | :-----------------: |
 | [`IRK36B`] (August 6th, 2011)            | Done                |
-| [`IRK40C`] (August 9th, 2011)            | Work in progress    |  
+| [`IRK40C`] (August 9th, 2011)            | Done                |  
+| [`IRK48`] (August 17th, 2011)            | Work in progress    |
 
 Work on the following build has been scrapped due to a change in focus:
 
