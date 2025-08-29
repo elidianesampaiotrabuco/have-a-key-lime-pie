@@ -1,48 +1,9 @@
-i-scream-sandwich: Ice Cream Sandwich Restoration Project
+have-a-key-lime-pie: KitKat Restoration Project
 =========================================================
 
-This repository contains reconstructed `repo` manifests of pre-release Android 4.0 ("Ice Cream Sandwich") builds.
+This repository contains reconstructed `repo` manifests of pre-release Android 4.4 ("KitKat / Key Lime Pie") builds.
 
-As of now, the following builds have been reconstructed:
-
-| Build ID & manifest branch               | Status              |
-| :--------------------------------------: | :-----------------: |
-| [`IRJ20`]  (April 20th, 2011)            | Done                |
-| [`IRJ40`]  (May 10th, 2011)              | Done                |
-| [`IRJ60`]  (May 30th, 2011)              | Done                |
-
-The following builds have rendering issues as a result of several graphics commits done in their lifespan. These changes will not be fixed as the builds were published with their respective commits:
-| Build ID & manifest branch               | Status              |
-| :--------------------------------------: | :-----------------: |
-| [`IRJ81`]  (June 20th, 2011)             | Done                |
-| [`IRK04`]  (July 4th, 2011)              | Done                |
-| [`IRK22`] (July 22th, 2011)              | Done                |
-
-By IRK36B, the aforementioned rendering bugs were fixed. IRK40C and IRK48 were only done due to them being listed on BetaWiki.
-| Build ID & manifest branch               | Status              |
-| :--------------------------------------: | :-----------------: |
-| [`IRK36B`] (August 6th, 2011)            | Done                |
-| [`IRK40C`] (August 9th, 2011)            | Done                |  
-| [`IRK48`] (August 17th, 2011)            | Done                |
-| [`IRK62C`] (August 31st, 2011)           | Done                | 
-| [`IRK88B`] (September 26th, 2011)        | Work in progress    |
-
-Work on the following build has been scrapped due to a change in focus (builds IRJ81 and IRK04 were compiled in place of this build.) :
-
-* ~~[`IRJ91D`] (July 1st, 2011)~~
-
-[`IRJ20`]:  https://github.com/froyocomb/i-scream-sandwich/tree/IRJ20
-[`IRJ40`]:  https://github.com/froyocomb/i-scream-sandwich/tree/IRJ40
-[`IRJ60`]:  https://github.com/froyocomb/i-scream-sandwich/tree/IRJ60
-[`IRJ81`]: https://github.com/froyocomb/i-scream-sandwich/tree/IRJ81
-[`IRJ91D`]: https://github.com/froyocomb/i-scream-sandwich/tree/IRJ91D
-[`IRK04`]: https://github.com/froyocomb/i-scream-sandwich/tree/IRK04
-[`IRK22`]: https://github.com/froyocomb/i-scream-sandwich/tree/IRK22
-[`IRK36B`]: https://github.com/froyocomb/i-scream-sandwich/tree/IRK36B
-[`IRK40C`]: https://github.com/froyocomb/i-scream-sandwich/tree/IRK40C
-[`IRK48`]: https://github.com/froyocomb/i-scream-sandwich/tree/IRK48
-[`IRK62C`]: https://github.com/froyocomb/i-scream-sandwich/tree/IRK62C
-[`IRK88B`]: https://github.com/froyocomb/i-scream-sandwich/tree/IRK88B
+As of now, no builds have been reconstructed.
 
 Preparing a Build Environment
 -----------------
