@@ -1,225 +1,234 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="styles/git-repo-manifest.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
-<?xml-stylesheet type="text/xsl" href="styles/styles.xsl"?>
-<manifest xmlns="http://schemas.android.com/git-repo/manifest">
+<manifest>
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com" />
-  <remote  name="github"
-           fetch="https://github.com/froyocomb" />
+           fetch=".." />
   <default revision="refs/tags/android-4.0.1_r1"
            remote="aosp"
            sync-j="4" />
 
-  <project name="platform/build" path="build" revision="refs/tags/android-4.0.1_r1">
+  <project path="build" name="platform/build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project name="platform/abi/cpp" path="abi/cpp" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/bionic" path="bionic" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/bootable/diskinstaller" path="bootable/diskinstaller" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/bootable/recovery" path="bootable/recovery" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/cts" path="cts" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/dalvik" path="dalvik" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/development" path="development" revision="refs/tags/android-4.0.1_r1" />
-  <project name="device/common" path="device/common" revision="refs/tags/android-4.0.1_r1" />
-  <project name="device/generic/goldfish" path="device/generic/goldfish" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/frameworks/base" path="frameworks/base" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/frameworks/compile/linkloader" path="frameworks/compile/linkloader" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/frameworks/compile/slang" path="frameworks/compile/slang" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/frameworks/ex" path="frameworks/ex" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/frameworks/media/libvideoeditor" path="frameworks/media/libvideoeditor" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/frameworks/opt/calendar" path="frameworks/opt/calendar" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/frameworks/opt/emoji" path="frameworks/opt/emoji" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/frameworks/opt/inputmethodcommon" path="frameworks/opt/inputmethodcommon" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/frameworks/opt/mailcommon" path="frameworks/opt/mailcommon" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/frameworks/opt/vcard" path="frameworks/opt/vcard" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/frameworks/support" path="frameworks/support" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/hardware/libhardware" path="hardware/libhardware" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/hardware/ril" path="hardware/ril" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/libcore" path="libcore" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/ndk" path="ndk" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/apps/Browser" path="packages/apps/Browser" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/apps/Calculator" path="packages/apps/Calculator" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/apps/Calendar" path="packages/apps/Calendar" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/apps/Camera" path="packages/apps/Camera" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/apps/CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/apps/CertInstaller" path="packages/apps/CertInstaller" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/apps/Contacts" path="packages/apps/Contacts" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/apps/DeskClock" path="packages/apps/DeskClock" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/apps/Email" path="packages/apps/Email" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/apps/Exchange" path="packages/apps/Exchange" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/apps/Gallery" path="packages/apps/Gallery" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/apps/Gallery2" path="packages/apps/Gallery2" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/apps/KeyChain" path="packages/apps/KeyChain" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/apps/Launcher2" path="packages/apps/Launcher2" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/apps/Mms" path="packages/apps/Mms" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/apps/Music" path="packages/apps/Music" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/apps/MusicFX" path="packages/apps/MusicFX" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/apps/Nfc" path="packages/apps/Nfc" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/apps/PackageInstaller" path="packages/apps/PackageInstaller" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/apps/Phone" path="packages/apps/Phone" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/apps/Protips" path="packages/apps/Protips" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/apps/Provision" path="packages/apps/Provision" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/apps/Settings" path="packages/apps/Settings" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/apps/SpareParts" path="packages/apps/SpareParts" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/apps/SpeechRecorder" path="packages/apps/SpeechRecorder" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/apps/Stk" path="packages/apps/Stk" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/apps/Tag" path="packages/apps/Tag" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/apps/VideoEditor" path="packages/apps/VideoEditor" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/apps/VoiceDialer" path="packages/apps/VoiceDialer" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/experimental" path="packages/experimental" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/inputmethods/LatinIME" path="packages/inputmethods/LatinIME" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/inputmethods/OpenWnn" path="packages/inputmethods/OpenWnn" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/inputmethods/PinyinIME" path="packages/inputmethods/PinyinIME" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/providers/ApplicationsProvider" path="packages/providers/ApplicationsProvider" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/providers/CalendarProvider" path="packages/providers/CalendarProvider" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/providers/ContactsProvider" path="packages/providers/ContactsProvider" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/providers/DownloadProvider" path="packages/providers/DownloadProvider" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/providers/DrmProvider" path="packages/providers/DrmProvider" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/providers/GoogleContactsProvider" path="packages/providers/GoogleContactsProvider" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/providers/MediaProvider" path="packages/providers/MediaProvider" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/providers/TelephonyProvider" path="packages/providers/TelephonyProvider" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/providers/UserDictionaryProvider" path="packages/providers/UserDictionaryProvider" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/wallpapers/Basic" path="packages/wallpapers/Basic" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/wallpapers/Galaxy4" path="packages/wallpapers/Galaxy4" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/wallpapers/HoloSpiral" path="packages/wallpapers/HoloSpiral" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/wallpapers/LivePicker" path="packages/wallpapers/LivePicker" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/wallpapers/MagicSmoke" path="packages/wallpapers/MagicSmoke" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/wallpapers/MusicVisualization" path="packages/wallpapers/MusicVisualization" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/wallpapers/NoiseField" path="packages/wallpapers/NoiseField" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/packages/wallpapers/PhaseBeam" path="packages/wallpapers/PhaseBeam" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/prebuilt" path="prebuilt" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/sdk" path="sdk" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/system/bluetooth" path="system/bluetooth" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/system/core" path="system/core" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/system/extras" path="system/extras" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/system/media" path="system/media" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/system/netd" path="system/netd" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/system/vold" path="system/vold" revision="refs/tags/android-4.0.1_r1" />
-
-  <project name="platform/external/android-mock" path="external/android-mock" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/antlr" path="external/antlr" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/apache-harmony" path="external/apache-harmony" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/apache-http" path="external/apache-http" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/apache-xml" path="external/apache-xml" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/astl" path="external/astl" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/bison" path="external/bison" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/blktrace" path="external/blktrace" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/bluetooth/bluez" path="external/bluetooth/bluez" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/bluetooth/glib" path="external/bluetooth/glib" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/bluetooth/hcidump" path="external/bluetooth/hcidump" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/bouncycastle" path="external/bouncycastle" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/bsdiff" path="external/bsdiff" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/bzip2" path="external/bzip2" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/chromium" path="external/chromium" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/clang" path="external/clang" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/collada" path="external/collada" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/dbus" path="external/dbus" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/dhcpcd" path="external/dhcpcd" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/dnsmasq" path="external/dnsmasq" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/doclava" path="external/doclava" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/dropbear" path="external/dropbear" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/e2fsprogs" path="external/e2fsprogs" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/easymock" path="external/easymock" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/elfutils" path="external/elfutils" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/embunit" path="external/embunit" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/emma" path="external/emma" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/esd" path="external/esd" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/expat" path="external/expat" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/eyes-free" path="external/eyes-free" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/fdlibm" path="external/fdlibm" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/flac" path="external/flac" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/freetype" path="external/freetype" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/fsck_msdos" path="external/fsck_msdos" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/genext2fs" path="external/genext2fs" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/giflib" path="external/giflib" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/google-diff-match-patch" path="external/google-diff-match-patch" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/grub" path="external/grub" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/gtest" path="external/gtest" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/guava" path="external/guava" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/harfbuzz" path="external/harfbuzz" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/hyphenation" path="external/hyphenation" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/icu4c" path="external/icu4c" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/iproute2" path="external/iproute2" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/ipsec-tools" path="external/ipsec-tools" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/iptables" path="external/iptables" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/javasqlite" path="external/javasqlite" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/javassist" path="external/javassist" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/jdiff" path="external/jdiff" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/jhead" path="external/jhead" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/jpeg" path="external/jpeg" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/jsilver" path="external/jsilver" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/jsr305" path="external/jsr305" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/junit" path="external/junit" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/kernel-headers" path="external/kernel-headers" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/libffi" path="external/libffi" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/libgsm" path="external/libgsm" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/liblzf" path="external/liblzf" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/libnfc-nxp" path="external/libnfc-nxp" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/libnl-headers" path="external/libnl-headers" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/libpcap" path="external/libpcap" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/libphonenumber" path="external/libphonenumber" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/libpng" path="external/libpng" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/libvpx" path="external/libvpx" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/libxml2" path="external/libxml2" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/libxslt" path="external/libxslt" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/llvm" path="external/llvm" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/lohit-fonts" path="external/lohit-fonts" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/markdown" path="external/markdown" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/mesa3d" path="external/mesa3d" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/mksh" path="external/mksh" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/mockwebserver" path="external/mockwebserver" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/mtpd" path="external/mtpd" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/netcat" path="external/netcat" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/netperf" path="external/netperf" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/neven" path="external/neven" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/nist-sip" path="external/nist-sip" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/oauth" path="external/oauth" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/opencv" path="external/opencv" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/openssl" path="external/openssl" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/oprofile" path="external/oprofile" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/pcre" path="external/pcre" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/ping" path="external/ping" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/ping6" path="external/ping6" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/ppp" path="external/ppp" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/proguard" path="external/proguard" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/protobuf" path="external/protobuf" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/qemu" path="external/qemu" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/qemu-pc-bios" path="external/qemu-pc-bios" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/quake" path="external/quake" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/safe-iop" path="external/safe-iop" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/skia" path="external/skia" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/sonivox" path="external/sonivox" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/speex" path="external/speex" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/sqlite" path="external/sqlite" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/srec" path="external/srec" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/srtp" path="external/srtp" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/stlport" path="external/stlport" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/strace" path="external/strace" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/svox" path="external/svox" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/tagsoup" path="external/tagsoup" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/tcpdump" path="external/tcpdump" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/tinyalsa" path="external/tinyalsa" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/tinyxml" path="external/tinyxml" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/tremolo" path="external/tremolo" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/v8" path="external/v8" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/valgrind" path="external/valgrind" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/webkit" path="external/webkit" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/webp" path="external/webp" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/webrtc" path="external/webrtc" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/wpa_supplicant" path="external/wpa_supplicant" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/wpa_supplicant_6" path="external/wpa_supplicant_6" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/xmlwriter" path="external/xmlwriter" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/yaffs2" path="external/yaffs2" revision="refs/tags/android-4.0.1_r1" />
-  <project name="platform/external/zlib" path="external/zlib" revision="refs/tags/android-4.0.1_r1" />
+  <project path="abi/cpp" name="platform/abi/cpp" />
+  <project path="bionic" name="platform/bionic" />
+  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
+  <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" />
+  <project path="cts" name="platform/cts" />
+  <project path="dalvik" name="platform/dalvik" />
+  <project path="development" name="platform/development" />
+  <project path="device/common" name="device/common" />
+  <project path="device/generic/goldfish" name="device/generic/goldfish" />
+  <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" />
+  <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" />
+  <project path="device/sample" name="device/sample" />
+  <project path="device/samsung/maguro" name="device/samsung/maguro" />
+  <project path="device/samsung/tuna" name="device/samsung/tuna" />
+  <project path="device/ti/panda" name="device/ti/panda" />
+  <project path="docs/source.android.com" name="platform/docs/source.android.com" />
+  <project path="external/android-mock" name="platform/external/android-mock" />
+  <project path="external/antlr" name="platform/external/antlr" />
+  <project path="external/apache-harmony" name="platform/external/apache-harmony" />
+  <project path="external/apache-http" name="platform/external/apache-http" />
+  <project path="external/apache-xml" name="platform/external/apache-xml" />
+  <project path="external/astl" name="platform/external/astl" />
+  <project path="external/bison" name="platform/external/bison" />
+  <project path="external/blktrace" name="platform/external/blktrace" />
+  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" />
+  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
+  <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
+  <project path="external/bouncycastle" name="platform/external/bouncycastle" />
+  <project path="external/bsdiff" name="platform/external/bsdiff" />
+  <project path="external/bzip2" name="platform/external/bzip2" />
+  <project path="external/chromium" name="platform/external/chromium" />
+  <project path="external/clang" name="platform/external/clang" />
+  <project path="external/collada" name="platform/external/collada" />
+  <project path="external/dbus" name="platform/external/dbus" />
+  <project path="external/dhcpcd" name="platform/external/dhcpcd" />
+  <project path="external/dnsmasq" name="platform/external/dnsmasq" />
+  <project path="external/doclava" name="platform/external/doclava" />
+  <project path="external/dropbear" name="platform/external/dropbear" />
+  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" />
+  <project path="external/easymock" name="platform/external/easymock" />
+  <project path="external/elfutils" name="platform/external/elfutils" />
+  <project path="external/embunit" name="platform/external/embunit" />
+  <project path="external/emma" name="platform/external/emma" />
+  <project path="external/esd" name="platform/external/esd" />
+  <project path="external/expat" name="platform/external/expat" />
+  <project path="external/eyes-free" name="platform/external/eyes-free" />
+  <project path="external/fdlibm" name="platform/external/fdlibm" />
+  <project path="external/flac" name="platform/external/flac" />
+  <project path="external/freetype" name="platform/external/freetype" />
+  <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
+  <project path="external/genext2fs" name="platform/external/genext2fs" />
+  <project path="external/giflib" name="platform/external/giflib" />
+  <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" />
+  <project path="external/grub" name="platform/external/grub" />
+  <project path="external/gtest" name="platform/external/gtest" />
+  <project path="external/guava" name="platform/external/guava" />
+  <project path="external/harfbuzz" name="platform/external/harfbuzz" />
+  <project path="external/hyphenation" name="platform/external/hyphenation" />
+  <project path="external/icu4c" name="platform/external/icu4c" />
+  <project path="external/iproute2" name="platform/external/iproute2" />
+  <project path="external/ipsec-tools" name="platform/external/ipsec-tools" />
+  <project path="external/iptables" name="platform/external/iptables" />
+  <project path="external/javasqlite" name="platform/external/javasqlite" />
+  <project path="external/javassist" name="platform/external/javassist" />
+  <project path="external/jdiff" name="platform/external/jdiff" />
+  <project path="external/jhead" name="platform/external/jhead" />
+  <project path="external/jpeg" name="platform/external/jpeg" />
+  <project path="external/jsilver" name="platform/external/jsilver" />
+  <project path="external/jsr305" name="platform/external/jsr305" />
+  <project path="external/junit" name="platform/external/junit" />
+  <project path="external/kernel-headers" name="platform/external/kernel-headers" />
+  <project path="external/libffi" name="platform/external/libffi" />
+  <project path="external/libgsm" name="platform/external/libgsm" />
+  <project path="external/liblzf" name="platform/external/liblzf" />
+  <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" />
+  <project path="external/libnl-headers" name="platform/external/libnl-headers" />
+  <project path="external/libpcap" name="platform/external/libpcap" />
+  <project path="external/libphonenumber" name="platform/external/libphonenumber" />
+  <project path="external/libpng" name="platform/external/libpng" />
+  <project path="external/libvpx" name="platform/external/libvpx" />
+  <project path="external/libxml2" name="platform/external/libxml2" />
+  <project path="external/libxslt" name="platform/external/libxslt" />
+  <project path="external/llvm" name="platform/external/llvm" />
+  <project path="external/lohit-fonts" name="platform/external/lohit-fonts" />
+  <project path="external/markdown" name="platform/external/markdown" />
+  <project path="external/mesa3d" name="platform/external/mesa3d" />
+  <project path="external/mksh" name="platform/external/mksh" />
+  <project path="external/mockwebserver" name="platform/external/mockwebserver" />
+  <project path="external/mtpd" name="platform/external/mtpd" />
+  <project path="external/netcat" name="platform/external/netcat" />
+  <project path="external/netperf" name="platform/external/netperf" />
+  <project path="external/neven" name="platform/external/neven" />
+  <project path="external/nist-sip" name="platform/external/nist-sip" />
+  <project path="external/oauth" name="platform/external/oauth" />
+  <project path="external/opencv" name="platform/external/opencv" />
+  <project path="external/openssl" name="platform/external/openssl" />
+  <project path="external/oprofile" name="platform/external/oprofile" />
+  <project path="external/pcre" name="platform/external/pcre" />
+  <project path="external/ping" name="platform/external/ping" />
+  <project path="external/ping6" name="platform/external/ping6" />
+  <project path="external/ppp" name="platform/external/ppp" />
+  <project path="external/proguard" name="platform/external/proguard" />
+  <project path="external/protobuf" name="platform/external/protobuf" />
+  <project path="external/qemu" name="platform/external/qemu" />
+  <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" />
+  <project path="external/quake" name="platform/external/quake" />
+  <project path="external/safe-iop" name="platform/external/safe-iop" />
+  <project path="external/skia" name="platform/external/skia" />
+  <project path="external/sonivox" name="platform/external/sonivox" />
+  <project path="external/speex" name="platform/external/speex" />
+  <project path="external/sqlite" name="platform/external/sqlite" />
+  <project path="external/srec" name="platform/external/srec" />
+  <project path="external/srtp" name="platform/external/srtp" />
+  <project path="external/stlport" name="platform/external/stlport" />
+  <project path="external/strace" name="platform/external/strace" />
+  <project path="external/svox" name="platform/external/svox" />
+  <project path="external/tagsoup" name="platform/external/tagsoup" />
+  <project path="external/tcpdump" name="platform/external/tcpdump" />
+  <project path="external/tinyalsa" name="platform/external/tinyalsa" />
+  <project path="external/tinyxml" name="platform/external/tinyxml" />
+  <project path="external/tremolo" name="platform/external/tremolo" />
+  <project path="external/v8" name="platform/external/v8" />
+  <project path="external/valgrind" name="platform/external/valgrind" />
+  <project path="external/webkit" name="platform/external/webkit" />
+  <project path="external/webp" name="platform/external/webp" />
+  <project path="external/webrtc" name="platform/external/webrtc" />
+  <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
+  <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
+  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" />
+  <project path="external/xmlwriter" name="platform/external/xmlwriter" />
+  <project path="external/yaffs2" name="platform/external/yaffs2" />
+  <project path="external/zlib" name="platform/external/zlib" />
+  <project path="frameworks/base" name="platform/frameworks/base" />
+  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
+  <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
+  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" />
+  <project path="frameworks/ex" name="platform/frameworks/ex" />
+  <project path="frameworks/media/libvideoeditor" name="platform/frameworks/media/libvideoeditor" />
+  <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
+  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
+  <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
+  <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
+  <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
+  <project path="frameworks/support" name="platform/frameworks/support" />
+  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
+  <project path="hardware/invensense" name="platform/hardware/invensense" />
+  <project path="hardware/libhardware" name="platform/hardware/libhardware" />
+  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
+  <project path="hardware/msm7k" name="platform/hardware/msm7k" />
+  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
+  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
+  <project path="hardware/ril" name="platform/hardware/ril" />
+  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
+  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
+  <project path="libcore" name="platform/libcore" />
+  <project path="ndk" name="platform/ndk" />
+  <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
+  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
+  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
+  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
+  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
+  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
+  <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
+  <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
+  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
+  <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
+  <project path="packages/apps/Email" name="platform/packages/apps/Email" />
+  <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
+  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
+  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
+  <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
+  <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
+  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
+  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
+  <project path="packages/apps/Music" name="platform/packages/apps/Music" />
+  <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
+  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
+  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
+  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
+  <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
+  <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
+  <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
+  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
+  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
+  <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
+  <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
+  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
+  <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
+  <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
+  <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
+  <project path="packages/experimental" name="platform/packages/experimental" />
+  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
+  <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
+  <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
+  <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
+  <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
+  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
+  <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
+  <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
+  <project path="packages/providers/GoogleContactsProvider" name="platform/packages/providers/GoogleContactsProvider" />
+  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
+  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
+  <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
+  <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
+  <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
+  <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
+  <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
+  <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" />
+  <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
+  <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
+  <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
+  <project path="prebuilt" name="platform/prebuilt" />
+  <project path="sdk" name="platform/sdk" />
+  <project path="system/bluetooth" name="platform/system/bluetooth" />
+  <project path="system/core" name="platform/system/core" />
+  <project path="system/extras" name="platform/system/extras" />
+  <project path="system/media" name="platform/system/media" />
+  <project path="system/netd" name="platform/system/netd" />
+  <project path="system/vold" name="platform/system/vold" />
 
 </manifest>
