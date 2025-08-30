@@ -3,7 +3,13 @@ have-a-key-lime-pie: KitKat Restoration Project
 
 This repository contains reconstructed `repo` manifests of pre-release Android 4.4 ("KitKat / Key Lime Pie") builds.
 
-As of now, no builds have been reconstructed.
+Following pre-release builds were reconstructed:
+
+| Build number                              | Status           |
+| :---:                                     |   :---:          |
+| [`AAQ65`] (6 March 2013)                  | Work in progress |
+
+[`AAQ65`]:  https://github.com/froyocomb/have-a-key-lime-pie/tree/AAQ65
 
 Preparing a Build Environment
 -----------------
