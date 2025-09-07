@@ -8,8 +8,10 @@ Following pre-release builds were reconstructed:
 | Build number                              | Status           |
 | :---:                                     |   :---:          |
 | [`AAQ65`] (6 March 2013)                  | Done             |
+| [`AAQ84`] (25 March 2013)                 | Done             |
 
 [`AAQ65`]:  https://github.com/froyocomb/have-a-key-lime-pie/tree/AAQ65
+[`AAQ84`]:  https://github.com/froyocomb/have-a-key-lime-pie/tree/AAQ84
 
 Preparing a Build Environment
 -----------------
