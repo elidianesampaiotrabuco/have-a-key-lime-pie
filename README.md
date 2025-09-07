@@ -7,7 +7,7 @@ Following pre-release builds were reconstructed:
 
 | Build number                              | Status           |
 | :---:                                     |   :---:          |
-| [`AAQ65`] (6 March 2013)                  | Work in progress |
+| [`AAQ65`] (6 March 2013)                  | Done             |
 
 [`AAQ65`]:  https://github.com/froyocomb/have-a-key-lime-pie/tree/AAQ65
 
@@ -20,10 +20,6 @@ It is recommended to use an older Linux distribution. All builds have been teste
 
 For the repositories to work, it is needed to replace any `archive.ubuntu.com` and `security.ubuntu.com` mentions in your repository list (which is under /etc/apt/sources.list) with `old-releases.ubuntu.com`. Then, it will be possible to install required dependencies.
 
-Ubuntu 12.04 usually bundles newer GCC version, like 4.6. However, for those builds, GCC 4.4 is more recommended. To download older GCC, execute:
-
-    sudo apt-get install gcc-4.4 g++-4.4 gcc-4.4-multilib g++-4.4-multilib  
-
 Downloading Source
 ------------------
 
@@ -31,11 +27,11 @@ To get started with downloading the source code, experience with Git and [`repo`
 
 To initialize a repository tree using one of the manifests provided by this project, execute a command like this (see the table above for available `<branch>`es):
 
-    repo init -u https://github.com/froyocomb/i-scream-sandwich.git <branch>
+    repo init -u https://github.com/froyocomb/have-a-key-lime-pie.git <branch>
 
 Then to download the respective code, execute:
 
-    repo sync
+    repo sync --no-tags --no-clone-bundle
 
 Compiling
 ---------
@@ -52,7 +48,7 @@ As appropriate device trees are not available in the source, the only targets th
 
 To compile Android, type:
 
-    make CC=gcc-4.4 CXX=g++-4.4
+    make
 
 Running
 -------
