@@ -9,9 +9,19 @@ Following pre-release builds were reconstructed:
 | :---:                                     |   :---:          |
 | [`AAQ65`] (6 March 2013)                  | Done             |
 | [`AAQ84`] (25 March 2013)                 | Done             |
+| [`AAR15`] (15 April 2013)                 | Done             |
+| [`AAR31`] (1 May 2013)                 | Done             |
+| [`AAR50C`] (20 May 2013)                 | Done             |
+| [`AAR73`] (12 June 2013)                 | Uncompilable =[             |
+| [`KRS30D`] (30 July 2013)                 | Work in progress             |
 
 [`AAQ65`]:  https://github.com/froyocomb/have-a-key-lime-pie/tree/AAQ65
 [`AAQ84`]:  https://github.com/froyocomb/have-a-key-lime-pie/tree/AAQ84
+[`AAR15`]:  https://github.com/froyocomb/have-a-key-lime-pie/tree/AAR15
+[`AAR31`]:  https://github.com/froyocomb/have-a-key-lime-pie/tree/AAR31
+[`AAR50C`]:  https://github.com/froyocomb/have-a-key-lime-pie/tree/AAR50C
+[`AAR73`]:  https://github.com/froyocomb/have-a-key-lime-pie/tree/AAR73
+[`KRS30D`]:  https://github.com/froyocomb/have-a-key-lime-pie/tree/KRS30D
 
 Preparing a Build Environment
 -----------------
