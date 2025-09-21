@@ -12,7 +12,7 @@ Following pre-release builds were reconstructed:
 | [`AAR15`] (15 April 2013)                 | Done             |
 | [`AAR31`] (1 May 2013)                 | Done             |
 | [`AAR50C`] (20 May 2013)                 | Done             |
-| [`AAR73`] (12 June 2013)                 | Uncompilable             |
+| [`AAR73`] (12 June 2013)                 | Scrapped             |
 | [`KRS30D`] (30 July 2013)                 | Done             |
 | [`KRS39`] (8 August 2013)                 | Done             |
 | [`KRS44B`] (13 August 2013)                 | Work in progress             |
