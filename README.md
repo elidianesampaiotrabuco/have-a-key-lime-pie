@@ -16,7 +16,8 @@ Following pre-release builds were reconstructed:
 | [`KRS30D`] (30 July 2013)                 | Done             |
 | [`KRS39`] (8 August 2013)                 | Done             |
 | [`KRS44B`] (13 August 2013)                 | Done             |
-| [`KRS53G`] (23 August 2013)                 | Work in progress             |
+| [`KRS53G`] (23 August 2013)                 | Done             |
+| [`KRS58B`] (27 August 2013)                 | Done             |
 
 [`AAQ65`]:  https://github.com/froyocomb/have-a-key-lime-pie/tree/AAQ65
 [`AAQ84`]:  https://github.com/froyocomb/have-a-key-lime-pie/tree/AAQ84
@@ -28,6 +29,7 @@ Following pre-release builds were reconstructed:
 [`KRS39`]:  https://github.com/froyocomb/have-a-key-lime-pie/tree/KRS39
 [`KRS44B`]:  https://github.com/froyocomb/have-a-key-lime-pie/tree/KRS44B
 [`KRS53G`]:  https://github.com/froyocomb/have-a-key-lime-pie/tree/KRS53G
+[`KRS58B`]:  https://github.com/froyocomb/have-a-key-lime-pie/tree/KRS58B
 
 Preparing a Build Environment
 -----------------
